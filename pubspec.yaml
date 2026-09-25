@@ -1,0 +1,25 @@
+name: wordmap_build2
+description: "离线词汇导图 - 词族思维导图 + 音频发音"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.9.40
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/word_data.json
+    - assets/audio/
+    - assets/images/placeholders/

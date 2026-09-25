@@ -1,0 +1,50 @@
+# ===== Flutter/Dart 标准忽略 =====
+# 构建输出
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# ===== Android 特定 =====
+# Gradle 缓存和构建输出（巨大且可重建）
+android/.gradle/
+android/.gradle_home/
+android/app/build/
+android/build/
+android/local.properties
+local_gradle/
+gradle_tmp/
+
+# Kotlin daemon
+kotlin_daemon_dir/
+
+# ===== Windows 特定 =====
+windows/flutter/ephemeral/
+windows/build/
+windows/.vs/
+
+# ===== 项目特定 =====
+# 日志文件
+*.log
+flutter_*.log
+
+# 临时构建目录
+build_output/
+
+# ===== 保留的重要文件（不忽略） =====
+# !assets/
+# !lib/
+# !pubspec.yaml
+# !pubspec.lock
